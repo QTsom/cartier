@@ -1,0 +1,483 @@
+@media screen and (max-width:767px){
+}
+@media screen and (min-width:768px) and (max-width:1279px){
+}
+@media screen and (min-width:1280px){
+    section.videoContents{
+        text-align: center; padding: 30px 60px 0; position: relative;
+        margin-bottom: 100px;
+    }
+    section.videoContents div.count h3,span{
+        display: inline-block; font-size: 30px; font-weight: 500;
+        line-height: 30px; color: #222; height: 30px; overflow: hidden;
+    }
+    section.videoContents div.count span:first-of-type{
+        margin-left: 20px;
+    }
+    section.videoContents div.count span div{
+        animation: linear 0s normal;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+    }
+    section.videoContents div.count span:first-of-type div{
+        animation-name: motion1; animation-duration: 3.5s;
+    }
+    section.videoContents div.count span:last-of-type div{
+        animation-name: motion2; animation-duration: 2.5s;
+    }
+    @keyframes motion1{
+      0% {transform: translateY(0px);}
+      100% {transform: translateY(-240px);}
+    }
+    @keyframes motion2{
+      0% {transform: translateY(0px);}
+      100% {transform: translateY(-420px);}
+    }
+    /* Video Fin */
+
+    section.jewelryContents{
+        width: 100%; margin: 0 auto; position: relative; height: 900px;
+        padding: 60px 0;
+    }
+    section.jewelryContents div{
+        top: 100px;
+    }
+    section.jewelryContents div img{
+        position: absolute;
+        width: 20%; max-width: 300px; border-radius: 15px;
+        display: block;
+        animation-duration: 15s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+    }
+    section.jewelryContents img:first-of-type{
+        animation-name: slide;
+    }
+    @keyframes slide{
+      0%{transform: translate(800px,400px); z-index: 9999;}
+      20% {transform: translate(1000px,300px) scale(0.9); z-index: 1000;}
+      30% {transform: translate(1200px,200px) scale(0.8); z-index: 100;}
+      40% {transform: translate(1000px,100px) scale(0.7); z-index: 10;}
+      50% {transform: translate(800px,0px) scale(0.6); opacity: 20%; z-index: 0;}
+      60% {transform: translate(600px,100px) scale(0.7); z-index: 10;}
+      70% {transform: translate(400px,200px) scale(0.8); z-index: 100;}
+      80% {transform: translate(600px,300px) scale(0.9); z-index: 1000;}
+      100% {transform: translate(800px,400px); opacity: 100%; z-index: 9999;}
+    }
+
+    section.jewelryContents img:nth-of-type(2){
+      animation-name: slide2;
+    }
+    
+    @keyframes slide2{
+      0% {transform: translate(1000px,300px) scale(0.9); z-index: 1000;}
+      20% {transform: translate(1200px,200px) scale(0.8); z-index: 100;}
+      30% {transform: translate(1000px,100px) scale(0.7); z-index: 10;}
+      40% {transform: translate(800px,0px) scale(0.6); opacity: 20%; z-index: 0;}
+      50% {transform: translate(600px,100px) scale(0.7); z-index: 10;}
+      60% {transform: translate(400px,200px) scale(0.8); z-index: 100;}
+      70% {transform: translate(600px,300px) scale(0.9); z-index: 1000;}
+      80% {transform: translate(800px,400px); opacity: 100%; z-index: 9999;}
+      100% {transform: translate(1000px,300px) scale(0.9); z-index: 1000;}
+    }
+    
+    section.jewelryContents img:nth-of-type(3){
+      animation-name: slide3;
+    }
+    @keyframes slide3{
+      0% {transform: translate(1200px,200px) scale(0.8); opacity: 100%; z-index: 100;}
+      20% {transform: translate(1000px,100px) scale(0.7); z-index: 10;}
+      30% {transform: translate(800px,0px) scale(0.6); opacity: 20%; z-index: 0;}
+      40% {transform: translate(600px,100px) scale(0.7); z-index: 10;}
+      50% {transform: translate(400px,200px) scale(0.8); z-index: 100;}
+      60% {transform: translate(600px,300px) scale(0.9); z-index: 1000;}
+      70% {transform: translate(800px,400px); opacity: 100%; z-index: 9999;}
+      80% {transform: translate(1000px,300px) scale(0.9); z-index: 1000;}
+      100% {transform: translate(1200px,200px) scale(0.8); z-index: 100;}
+    }
+    
+    section.jewelryContents img:nth-of-type(4){
+      animation-name: slide4;
+    }
+    @keyframes slide4{
+      0% {transform: translate(1000px,100px) scale(0.7); opacity: 60%; z-index: 10;}
+      20% {transform: translate(800px,0px) scale(0.6); opacity: 20%; z-index: 0;}
+      30% {transform: translate(600px,100px) scale(0.7); z-index: 10;}
+      40% {transform: translate(400px,200px) scale(0.8); z-index: 100;}
+      50% {transform: translate(600px,300px) scale(0.9); z-index: 1000;}
+      60% {transform: translate(800px,400px); opacity: 100%; z-index: 9999;}
+      70% {transform: translate(1000px,300px) scale(0.9); z-index: 1000;}
+      80% {transform: translate(1200px,200px) scale(0.8); z-index: 100;}
+      100% {transform: translate(1000px,100px) scale(0.7); opacity: 60%; z-index: 10;}
+    }
+    
+    section.jewelryContents img:nth-of-type(5){
+      animation-name: slide5;
+    }
+    @keyframes slide5{
+      0% {transform: translate(800px,0px) scale(0.6); opacity: 20%; z-index: 0;}
+      20% {transform: translate(600px,100px) scale(0.7); opacity: 60%; z-index: 10;}
+      30% {transform: translate(400px,200px) scale(0.8); z-index: 100;}
+      40% {transform: translate(600px,300px) scale(0.9); z-index: 1000;}
+      50% {transform: translate(800px,400px); opacity: 100%; z-index: 9999;}
+      60% {transform: translate(1000px,300px) scale(0.9); z-index: 1000;}
+      70% {transform: translate(1200px,200px)scale(0.8); z-index: 100;}
+      80% {transform: translate(1000px,100px) scale(0.7); opacity: 60%; z-index: 10;}
+      100% {transform: translate(800px,0px) scale(0.6); opacity: 20%; z-index: 0;}
+    }
+    
+    section.jewelryContents img:nth-of-type(6){
+      animation-name: slide6;
+    }
+    @keyframes slide6{
+      0% {transform: translate(600px,100px) scale(0.7); opacity: 60%; z-index: 10;}
+      20% {transform: translate(400px,200px) scale(0.8); z-index: 100;}
+      30% {transform: translate(600px,300px) scale(0.9); z-index: 1000;}
+      40% {transform: translate(800px,400px); opacity: 100%; z-index: 9999;}
+      50% {transform: translate(1000px,300px)scale(0.9); z-index: 1000;}
+      60% {transform: translate(1200px,200px) scale(0.8); z-index: 100;}
+      70% {transform: translate(1000px,100px) scale(0.7); opacity: 60%; z-index: 10;}
+      80% {transform: translate(800px,0px) scale(0.6); opacity: 20%; z-index: 0;}
+      100% {transform: translate(600px,100px) scale(0.7); opacity: 60%; z-index: 10;}
+    }
+    
+    section.jewelryContents img:nth-of-type(7){
+      animation-name: slide7;
+    }
+    @keyframes slide7{
+      0% {transform: translate(400px,200px) scale(0.8); z-index: 100;}
+      20% {transform: translate(600px,300px) scale(0.9); z-index: 1000;}
+      30% {transform: translate(800px,400px); opacity: 100%; z-index: 9999;}
+      40% {transform: translate(1000px,300px) scale(0.9); z-index: 1000;}
+      50% {transform: translate(1200px,200px)scale(0.8); z-index: 100;}
+      60% {transform: translate(1000px,100px) scale(0.7); z-index: 10;}
+      70% {transform: translate(800px,0px) scale(0.6); opacity: 20%; z-index: 0;}
+      80% {transform: translate(600px,100px) scale(0.7); z-index: 10;}
+      100% {transform: translate(400px,200px) scale(0.8); opacity: 100%; z-index: 100;}
+    }
+    
+    section.jewelryContents img:last-of-type{
+      animation-name: slide8;
+    }
+    @keyframes slide8{
+      0% {transform: translate(600px,300px) scale(0.9); z-index: 1000;}
+      20% {transform: translate(800px,400px); opacity: 100%; z-index: 9999;}
+      30% {transform: translate(1000px,300px) scale(0.9); z-index: 1000;}
+      40% {transform: translate(1200px,200px) scale(0.8); z-index: 100;}
+      50% {transform: translate(1000px,100px) scale(0.7); z-index: 10;}
+      60% {transform: translate(800px,0px) scale(0.6); opacity: 20%; z-index: 0;}
+      70% {transform: translate(600px,100px) scale(0.7); z-index: 10;}
+      80% {transform: translate(400px,200px) scale(0.8); z-index: 100;}
+      100% {transform: translate(600px,300px) scale(0.9); opacity: 100%; z-index: 1000;}
+    }
+    /* jewelryContents Fin */
+    section.lifeContents figure img{
+        max-width: 628px; width: 50%;
+    }
+    section.lifeContents figure figcaption{
+        font-size: 20px; width: 45%; font-weight: 400; color: #444;
+        padding: 20px 20px;
+    }
+    section.lifeContents figure:first-of-type img,
+    section.lifeContents figure:first-of-type figcaption,
+    section.lifeContents figure:last-of-type img,
+    section.lifeContents figure:last-of-type figcaption{
+        float: left;
+    }
+    section.lifeContents figure:nth-of-type(2) img,
+    section.lifeContents figure:nth-of-type(2) figcaption{
+        float: right; text-align: right;
+    }
+    /* lifeArea Fin */
+    
+    section.knowhowContainer{
+        padding: 260px 0;
+    }
+    section.knowhowContainer > div,
+    section.knowhowContainer > ul{
+        width: 50%; float: left;
+    }
+    section.knowhowContainer > div{
+        position: relative;
+    }
+    section.knowhowContainer > div img{
+        position: absolute; max-width: 180px; left: 5%; top: 5%;
+        animation-duration: 2s;
+        animation-name: dumchit;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes dumchit {
+        50% {transform: translateY(-25px) rotate(-7deg);}
+    }
+    section.knowhowContainer > div h2{
+        font-size: 60px; font-weight: 600;
+        text-align: center; padding-top: 230px;
+        animation-duration: 6s;
+        animation-name: colors;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes colors{
+      0% {color: #ac0505;}
+      15% {color: #8bc5d1;}
+      30% {color: #f8cb4a;}
+      45% {color: #95b850;}
+      60% {color: #944893;}
+      75% {color: #39f;}
+      90% {color: #bdb280;}
+     100% {color: #ac0505;}
+    }
+    section.knowhowContainer > div p{
+        font-size: 24px; width: 60%; padding: 20px 0 0 70px; line-height: 30px;
+    }
+    section.knowhowContainer > ul{
+        position: relative; overflow: hidden; width: 550px; height: 550px; background-image: url('/images/back.jpg');
+        border-radius: 10px; background-position: left top; background-size: 560px;
+    }
+    section.knowhowContainer > ul li{
+        list-style: none;
+    }
+    section.knowhowContainer > ul li img{
+        height: 550px; width: 550px;
+        border-radius: 10px; position: absolute;
+        transition: all 1s;
+    }
+
+    section.giftArea video{
+        margin-bottom: 30px;
+    }
+    section.giftArea p{
+        font-size: 24px; font-weight: 300; color: #666;
+        text-align: center;
+    }
+    section.giftArea span{
+        margin: 0 auto; width: 140px; display: block;
+        padding: 30px 0 60px;
+    }
+    section.giftArea span a{
+        display: block; float: left; color: #fff; cursor: pointer;
+        background-color: #ac0505; width: 70px; line-height: 40px;
+        transition: transform 0.8s; font-size: 18px;
+    }
+    section.giftArea span a:first-of-type{
+        border-radius: 20px 0 0 20px; text-align: right;
+    }
+    section.giftArea span:hover a:first-of-type{
+        transform: rotate(45deg) translateX(34px); color: #ac0505;
+    }
+    section.giftArea span a:last-of-type{
+        border-radius: 0 20px 20px 0; text-align: center;
+    }
+    section.giftArea span:hover a:last-of-type{
+        transform: rotate(-45deg) translateX(-34px);
+    }
+    /* giftArea Fin */
+
+    section.cultureContents{
+        padding: 100px 0;
+    }
+    section.cultureContents figure:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    section.cultureContents figure img{
+        width: 45%;
+    }
+    section.cultureContents figure figcaption{
+        text-align: center; width: 30%;
+    }
+    section.cultureContents figure:first-of-type figcaption{
+        padding: 150px 0 0 170px;
+    }
+    section.cultureContents figure:nth-of-type(2) figcaption{
+        padding: 150px 170px 0 0;
+    }
+    section.cultureContents figure:last-of-type figcaption{
+        padding: 180px 0 0 170px;
+    }
+    section.cultureContents figure figcaption h3{
+        font-size: 60px; font-weight: 600; color: #444;
+        margin-bottom: 20px;
+    }
+    section.cultureContents figure figcaption p{
+        font-size: 20px; font-weight: 400; color: #666;
+    }
+    section.cultureContents figure:first-of-type img,
+    section.cultureContents figure:first-of-type figcaption,
+    section.cultureContents figure:last-of-type img,
+    section.cultureContents figure:last-of-type figcaption{
+        float: left;
+    }
+    section.cultureContents figure:nth-of-type(2) img,
+    section.cultureContents figure:nth-of-type(2) figcaption{
+        float: right;
+    }
+    /* cultureContents Fin */
+    section.interviewArea{
+        margin-bottom: 400px;
+    }
+    section.interviewArea p{
+        font-size: 24px; font-weight: 300; color: #666;
+        text-align: center; width: 50%; margin: 0 auto; margin-bottom: 150px;
+    }
+    section.interviewArea ul{
+        text-align: center;
+    }
+    section.interviewArea ul li{
+        list-style: none; display: inline-block; 
+    }
+    section.interviewArea ul li:not(:first-of-type){
+        margin-left: 2%;
+    }
+    section.interviewArea ul li a{
+        padding: 90px 100px; display: block; text-indent: -9999px; width: 0;
+        margin-bottom: 10px; border-radius: 10px;
+        background-position: left top; background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    section.interviewArea ul li a:hover{
+        border-radius: 10px;
+        animation-name: bottom;
+        animation-timing-function: ease-out; animation-duration: 1.2s;
+    }
+    @keyframes bottom{
+        40% {transform: rotate(0.03turn);}
+        70% {transform: rotate(-0.02turn);}
+    }
+    section.interviewArea ul li:first-of-type a{
+        background-image: url('/images/interview2.png');
+    }
+    section.interviewArea ul li:nth-of-type(2) a{
+        background-image: url('/images/interview1.png');
+    }
+    section.interviewArea ul li:nth-of-type(3) a{
+        background-image: url('/images/interview5.png');
+    }
+    section.interviewArea ul li:nth-of-type(4) a{
+        background-image: url('/images/interview3.png');
+    }
+    section.interviewArea ul li:last-of-type a{
+        background-image: url('/images/interview4.png');
+    }
+    section.interviewArea ul li span{
+        font-size: 20px; font-weight: 400; color: #444; display: block;
+    }
+    /* interview Fin */
+
+    section.serviceContainer{
+        background-color: #ac0505; padding: 60px 115px 340px; width: 20%; position: relative;
+        margin-bottom: 130px;
+    }
+    section.serviceContainer.active{
+        background-color: #ac0505; width: 100%; padding: 60px 0 160px;}
+    section.serviceContainer div h2{
+        font-size: 40px; font-weight: 300; color: #fff;
+        margin-bottom: 80px;
+    }
+    section.serviceContainer.active div h2{
+        padding-left: 115px;
+    }
+    section.serviceContainer div ul{
+        text-align: center; display: none;
+    }
+    section.serviceContainer div ul.active{
+        display: block; animation-name: opacity;
+        animation-timing-function: ease-out; animation-duration: 5s;
+    }
+    @keyframes opacity {
+        0% {opacity: 0;}
+        100% {opacity: 100;}
+    }
+
+    section.serviceContainer div ul li{
+        list-style: none; display: inline-block;
+        width: 18%; cursor: pointer;
+    }
+    section.serviceContainer div ul li img{
+        padding: 20px;
+    }
+    section.serviceContainer div ul li img:hover{
+        border-radius: 70px;
+        animation-name: swing;
+        animation-timing-function: ease-out; animation-duration: 2s;
+    }
+    @keyframes swing {
+        30% {background-color: #bb1c1c;}
+        60% {background-color: #ddaaaa;}
+        100% {background-color: #bb1c1c;}
+    }
+    section.serviceContainer div ul li span{
+        display: block; font-size: 18px; color:#fff; font-weight: 500;
+    }
+    section.serviceContainer div > span{
+        padding: 30px; position: absolute; left: 80%; top: 40%;
+    }
+    section.serviceContainer div > span small{
+        display: block; text-indent: -9999px; background-color: #fff;
+        height: 3px; width: 40px;
+    }    
+    section.serviceContainer div > span small:first-of-type{
+        transform: rotate(30deg) translateX(-16px);
+    }
+    section.serviceContainer div > span small:last-of-type{
+        transform: rotate(-30deg) translateX(-16px);
+    }
+    section.serviceContainer div > span.active small{
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-out; animation-duration: 2s;
+    }
+    section.serviceContainer div > span.active small:first-of-type{
+        animation-name: X;
+    }
+    @keyframes X {
+        50% {transform: rotate(30deg) translateX(1px);}
+        100% {transform: rotate(45deg) translateX(2px);}
+    }
+    section.serviceContainer div > span.active small:last-of-type{
+        animation-name: XX;
+    }
+    @keyframes XX {
+        50% {transform: rotate(-30deg) translateX(1px);}
+        100% {transform: rotate(-45deg) translateX(2px);}
+    }
+    /* service Fin */
+    section[class$='Box']{
+        text-align: center;
+    }
+    section[class$='Box'] h2{
+        font-size: 36px; font-weight: 300; color: #222;
+        width: 15%; display: inline-block;
+    }
+    section[class$='Box'] label.switch{
+        position: relative; top: -11px;
+        display: inline-block;
+        width: 55px; height: 30px;
+    }
+    section[class$='Box'] label.switch input{
+        opacity: 0; width: 0; height: 0;
+    }
+    section[class$='Box'] label.switch span{
+        position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0;
+        border-radius: 20px; background-color: #ccc; box-shadow: inset 1px 5px 1px #9999;
+        transition: 0.4s;
+    }
+    section[class$='Box'] label.switch > span:before{
+        position: absolute; content: ''; height: 22px; width: 22px;
+        left: 4px; bottom: 4px; background-color: #fff; transition: 0.4s;
+        border-radius: 20px;
+    }
+    section[class$='Box'] label.switch input:checked + span{
+        background-color: #ac0505;
+        box-shadow: inset 1px 5px 1px #7a1414;
+    }
+    section[class$='Box'] label.switch input:checked + span:before{
+        transform: translate(26px);
+    }
+
+    section.newsBox{
+        padding-top: 200px;
+    }
+    section.followBox{
+        padding-bottom: 200px;
+    }
+}
