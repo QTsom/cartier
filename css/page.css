@@ -232,7 +232,7 @@
         font-size: 24px; width: 60%; padding: 20px 0 0 70px; line-height: 30px;
     }
     section.knowhowContainer > ul{
-        position: relative; overflow: hidden; width: 550px; height: 550px; background-image: url('/images/back.jpg');
+        position: relative; overflow: hidden; width: 550px; height: 550px; background-image: url('../images/back.jpg');
         border-radius: 10px; background-position: left top; background-size: 560px;
     }
     section.knowhowContainer > ul li{
@@ -345,19 +345,19 @@
         70% {transform: rotate(-0.02turn);}
     }
     section.interviewArea ul li:first-of-type a{
-        background-image: url('/images/interview2.png');
+        background-image: url('../images/interview2.png');
     }
     section.interviewArea ul li:nth-of-type(2) a{
-        background-image: url('/images/interview1.png');
+        background-image: url('../images/interview1.png');
     }
     section.interviewArea ul li:nth-of-type(3) a{
-        background-image: url('/images/interview5.png');
+        background-image: url('../images/interview5.png');
     }
     section.interviewArea ul li:nth-of-type(4) a{
-        background-image: url('/images/interview3.png');
+        background-image: url('../images/interview3.png');
     }
     section.interviewArea ul li:last-of-type a{
-        background-image: url('/images/interview4.png');
+        background-image: url('../images/interview4.png');
     }
     section.interviewArea ul li span{
         font-size: 20px; font-weight: 400; color: #444; display: block;
